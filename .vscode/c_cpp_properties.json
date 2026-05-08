@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "MicroBit-CODAL",
+            "includePath": [
+                "${workspaceFolder}/*",
+                "${workspaceFolder}/pxt_modules/core/**",
+                "${workspaceFolder}/built/**",
+                "/usr/include"
+            ],
+            "defines": [
+                "PXT_MICROBIT=1",
+                "MICROBIT_CODAL=1",
+                "__ARM_ARCH_7EM__=1",
+                "__cplusplus=201103L"
+            ],
+            "compilerPath": "/usr/bin/arm-none-eabi-g++",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-arm",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": false
+            }
+        }
+    ],
+    "version": 4
+}

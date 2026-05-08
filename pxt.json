@@ -1,0 +1,16 @@
+{
+    "name": "softcam",
+    "version": "0.0.1",
+    "description": "Extensao CODAL",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "main.ts",
+        "extension.cpp",
+        "shims.d.ts"
+    ],
+    "targetConfigs": {
+        "preferredEditor": "ts"
+    }
+}
